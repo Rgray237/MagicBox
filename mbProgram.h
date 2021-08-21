@@ -9,7 +9,7 @@ class mbProgram
   int  jackMode_; //0 - pass-through, 1 - Effects Chain, 2 - programmed
   int  knob1Mode_; //0 - Volume, 1 - Twiddle variable in effects chain. 2- programmed
   int  knob2Mode_;  //0 - Volume, 1- Twiddle, 2- programmed
-  int  led1Mode_; //0 - On  1- pulsing, 2 - programmed
+  int  knob3Mode_;
 
   std::string printable(){
     std::string str="";
@@ -27,4 +27,5 @@ public:
   padMode_(padMode), micMode_(micMode),jackMode_(jackMode),knob1Mode_(knob1Mode),knob2Mode_(knob2Mode)
   {}
   std::string getPrintable(){return printable();}
+  void render(){}
 };
