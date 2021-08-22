@@ -20,8 +20,8 @@ void MagicBox::render()
 int main()
 {
   MagicBox mb = MagicBox();
-  mb.addProgram(mbProgram(0,0,0,0,0));
-  mb.addProgram(mbProgram(1,1,2,3,5));
+  mb.addProgram(mbProgram("Program 1"));
+  mb.addProgram(mbProgram("Program 2"));
   mb.printPrograms();
   mb.printCurrentProgram();
   mb.nextProgram();
