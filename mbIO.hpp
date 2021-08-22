@@ -1,3 +1,6 @@
+#pragma once
+
+
 class mbIO
 {
   float voltage_;

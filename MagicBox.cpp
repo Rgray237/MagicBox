@@ -17,11 +17,16 @@ void MagicBox::render()
   }
 }
 
+void MagicBox::addProgram(mbProgram prog)
+{
+  programs_.push_back(prog);
+}
+
 int main()
 {
   MagicBox mb = MagicBox();
-  mb.addProgram(mbProgram("Program 1"));
-  mb.addProgram(mbProgram("Program 2"));
+  mb.addProgram(Program1());
+  mb.addProgram(Program2());
   mb.printPrograms();
   mb.printCurrentProgram();
   mb.nextProgram();
