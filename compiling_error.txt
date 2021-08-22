@@ -1,0 +1,5 @@
+In file included from /Users/rob/Documents/MagicBox/MagicBox.cpp:1:
+/Users/rob/Documents/MagicBox/MagicBox.hpp:3:10: fatal error: 'mbLCD.hpp' file not found
+#include "mbLCD.hpp"
+         ^~~~~~~~~~~
+1 error generated.

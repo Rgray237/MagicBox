@@ -1,6 +1,6 @@
-//Magic Box :)
-#include "mbPlugin.h"
-#include "mbProgram.h"
+#include "mbPlugin.hpp"
+#include "mbProgram.hpp"
+#include "mbLCD.hpp"
 #include <iostream>
 #include <string>
 #include <vector>

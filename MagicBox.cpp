@@ -1,4 +1,4 @@
-#include "MagicBox.h"
+#include "MagicBox.hpp"
 
 
 void MagicBox::render()
