@@ -1,0 +1,24 @@
+# 1 "/root/Bela/projects/MagicBox/mbIO.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 365 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "/root/Bela/projects/MagicBox/mbIO.cpp" 2
+# 1 "/root/Bela/projects/MagicBox/mbIO.hpp" 1
+
+
+
+class mbIO
+{
+  float val_;
+  int pin_;
+  public:
+  float V(){return val_;}
+  int Pin(){return pin_;}
+
+  void SetV(float v){val_=v;}
+  void Setup(int pin){pin_ = pin; val_=0;}
+};
+# 2 "/root/Bela/projects/MagicBox/mbIO.cpp" 2
+

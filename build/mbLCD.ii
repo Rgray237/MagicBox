@@ -1,0 +1,30 @@
+# 1 "/root/Bela/projects/MagicBox/mbLCD.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 365 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "/root/Bela/projects/MagicBox/mbLCD.cpp" 2
+# 1 "/root/Bela/projects/MagicBox/mbLCD.hpp" 1
+
+
+
+class mbLCD
+{
+  char line1Txt[16];
+  char line2Txt[16];
+public:
+  mbLCD(){}
+  void update(char line1[16],char line2[16])
+  {
+    for(int i=0;i<16;i++)
+    {
+      line1Txt[i]=line1[i];
+      line2Txt[i]=line2[i];
+    }
+
+  }
+
+};
+# 2 "/root/Bela/projects/MagicBox/mbLCD.cpp" 2
+
