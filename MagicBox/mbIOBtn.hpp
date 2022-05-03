@@ -4,8 +4,6 @@
 
 class mbIOBtn : public mbIO
 {
-<<<<<<< HEAD
-=======
 	int val_=0;
 	int state_=stOpen;
 	int debounceCounter_=0;
@@ -67,6 +65,5 @@ class mbIOBtn : public mbIO
 			}
 	}
 	
->>>>>>> 965ef2c (new pc. Added delay effect.)
 
 };

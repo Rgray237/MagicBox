@@ -1,13 +1,5 @@
 #include "MagicBox.hpp"
 
-<<<<<<< HEAD
-
-void MagicBox::render()
-{
-  if (state_==stPlay)
-  {
-    programs_[currentProgram_].render();
-=======
 MagicBox mb;
 
 void MagicBox::render(BelaContext* context)
@@ -16,7 +8,6 @@ void MagicBox::render(BelaContext* context)
   {
   	currentProgram_->render(context);
     
->>>>>>> 965ef2c (new pc. Added delay effect.)
   }
   else if (state_==stScroll)
   {
@@ -26,25 +17,6 @@ void MagicBox::render(BelaContext* context)
   {
 
   }
-<<<<<<< HEAD
-}
-
-void MagicBox::addProgram(mbProgram prog)
-{
-  programs_.push_back(prog);
-}
-
-int main()
-{
-  MagicBox mb = MagicBox();
-  mb.addProgram(Program1());
-  mb.addProgram(Program2());
-  mb.printPrograms();
-  mb.printCurrentProgram();
-  mb.nextProgram();
-  mb.printCurrentProgram();
-}
-=======
   if (btnRght_.Toggle())
   {
   	nextProgram();
@@ -117,4 +89,3 @@ void cleanup(BelaContext *context, void *userData)
 {
 
 }
->>>>>>> 965ef2c (new pc. Added delay effect.)

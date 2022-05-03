@@ -1,24 +1,19 @@
 #pragma once
 #include "mbProgram.hpp"
 
-class Program1 : public mbProgram
+class Program2 : public mbProgram
 {
-<<<<<<< HEAD
-
-=======
-	int gAudioFramesPerAnalogFrame = 1;
+int gAudioFramesPerAnalogFrame = 1;
 	float	gInverseSampleRate =1;
 	float gPhase=0;
 	float gAmplitude = 0;
 	float gFrequency = 0;
->>>>>>> 965ef2c (new pc. Added delay effect.)
+	Scope scope;
 public:
-  Program1(){
-    name_ = "Program 1 babyyyy";
+  Program2(){
+    name_ = "Program 2 babyyyy";
   }
   
-<<<<<<< HEAD
-=======
   void setup(BelaContext* context)
   {
   	if(context->analogFrames)
@@ -26,7 +21,8 @@ public:
 	gInverseSampleRate = 1.0 / context->audioSampleRate;
 	
 	// setup the scope with 3 channels at the audio sample rate
-	std::cout<<"Program 1 is set up."<<std::endl;
+	scope.setup(4, context->audioSampleRate);
+	std::cout<<"Program 2 is set up."<<std::endl;
 	std::cout<< "SampleRate = "<<context->audioSampleRate<<std::endl;
 	std::cout<< "gAudioFramesPerAnalogFrame = "<<gAudioFramesPerAnalogFrame<<std::endl;
 	std::cout<< "audioFrames="<<context->audioFrames<<std::endl;
@@ -41,9 +37,9 @@ public:
 			
 			ReadAllPins(n,context,gAudioFramesPerAnalogFrame);
 			
-			
+
 			gAmplitude = pad_->V() * knob1_->V(); //+ mb.XLR_.V();
-			gFrequency = map(knob2_->V(), 0, 1, 100, 1000);
+			gFrequency = map(knob2_->V(), 0, 1, 200, 2000);
 		
 			gPhase+= 2.0 * M_PI * gFrequency / context->audioSampleRate;
 		}
@@ -55,6 +51,4 @@ public:
 		}
 	}
   }
-  
->>>>>>> 965ef2c (new pc. Added delay effect.)
 };

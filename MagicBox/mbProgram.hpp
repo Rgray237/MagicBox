@@ -1,9 +1,5 @@
 #pragma once
-<<<<<<< HEAD
-
-=======
 #include <Bela.h>
->>>>>>> 965ef2c (new pc. Added delay effect.)
 #include "mbIO.hpp"
 #include "mbIOAux.hpp"
 #include "mbIOBtn.hpp"
@@ -11,13 +7,9 @@
 #include "mbIOKnob.hpp"
 #include "mbIOPad.hpp"
 #include "mbIOXLR.hpp"
-<<<<<<< HEAD
-
-=======
 #include <cmath>
 #include <libraries/Scope/Scope.h>
 #include <iostream>
->>>>>>> 965ef2c (new pc. Added delay effect.)
 #include <string>
 #include <vector>
 
@@ -25,30 +17,6 @@
 class mbProgram
 {
   enum {stInit,stScroll,stPlay};
-<<<<<<< HEAD
-
-
-public:
-  mbProgram(){}
-  std::string getPrintable(){return name_;}
-  void render(){}
-  int  getState(){return state_;}
-
-protected:
-  int           state_=stInit;
-  std::string   name_="";
-  mbIOBtn       btnL_;
-  mbIOBtn       btnR_;
-  mbIOKnob      volKnob_;
-  mbIOKnob      knob1_;
-  mbIOKnob      knob2_;
-  mbIOPad       pad_;
-  mbIOAux       auxIn_;
-  mbIOAux       auxOut_;
-  mbIOInst      instIn_;
-  mbIOInst      instOut_;
-  mbIOXLR       xlrIn_;
-=======
 	
 
 public:
@@ -99,5 +67,4 @@ int         	state_	=stInit;
 	float	gInverseSampleRate =0;
 	float gPhase=0;
   
->>>>>>> 965ef2c (new pc. Added delay effect.)
 };

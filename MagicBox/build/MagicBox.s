@@ -5117,11 +5117,11 @@ _ZN8Program35setupEP11BelaContext:      @ @_ZN8Program35setupEP11BelaContext
 	@DEBUG_VALUE: endl<char, std::char_traits<char> >:__os <- %R6
 	@DEBUG_VALUE: setup:this <- %R4
 	@DEBUG_VALUE: setup:context <- %R5
-	.loc	66 42 2                 @ /root/Bela/projects/MagicBox/Program3.hpp:42:2
+	.loc	66 40 2                 @ /root/Bela/projects/MagicBox/Program3.hpp:40:2
 	add	r0, r4, #116
-	.loc	66 42 17 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:42:17
+	.loc	66 40 17 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:40:17
 	add	r1, r4, #92
-	.loc	66 42 11                @ /root/Bela/projects/MagicBox/Program3.hpp:42:11
+	.loc	66 40 11                @ /root/Bela/projects/MagicBox/Program3.hpp:40:11
 	mov	r2, #1
 	mov	r3, #1
 	pop	{r4, r5, r6, r7, r11, lr}
@@ -5146,7 +5146,7 @@ _ZN8Program35setupEP11BelaContext:      @ @_ZN8Program35setupEP11BelaContext
 	.type	_ZN8Program36renderEP11BelaContext,%function
 _ZN8Program36renderEP11BelaContext:     @ @_ZN8Program36renderEP11BelaContext
 .Lfunc_begin18:
-	.loc	66 45 0                 @ /root/Bela/projects/MagicBox/Program3.hpp:45:0
+	.loc	66 43 0                 @ /root/Bela/projects/MagicBox/Program3.hpp:43:0
 	.fnstart
 	.cfi_startproc
 @ BB#0:
@@ -5183,24 +5183,24 @@ _ZN8Program36renderEP11BelaContext:     @ @_ZN8Program36renderEP11BelaContext
 	mov	r5, r0
 .Ltmp874:
 	@DEBUG_VALUE: render:this <- %R5
-	.loc	66 49 29 prologue_end   @ /root/Bela/projects/MagicBox/Program3.hpp:49:29
+	.loc	66 47 29 prologue_end   @ /root/Bela/projects/MagicBox/Program3.hpp:47:29
 	vldr	s0, .LCPI18_0
-	.loc	66 47 17                @ /root/Bela/projects/MagicBox/Program3.hpp:47:17
+	.loc	66 45 17                @ /root/Bela/projects/MagicBox/Program3.hpp:45:17
 	ldr	r0, [r5, #44]
 .Ltmp875:
 	@DEBUG_VALUE: V:this <- %R0
 	mov	r4, r1
 .Ltmp876:
 	@DEBUG_VALUE: render:context <- %R4
-	.loc	66 50 23                @ /root/Bela/projects/MagicBox/Program3.hpp:50:23
+	.loc	66 48 23                @ /root/Bela/projects/MagicBox/Program3.hpp:48:23
 	vldr	d17, .LCPI18_1
 .Ltmp877:
 	.loc	11 12 20                @ /root/Bela/projects/MagicBox/mbIOKnob.hpp:12:20
 	ldr	r0, [r0, #8]
 .Ltmp878:
-	.loc	66 47 15                @ /root/Bela/projects/MagicBox/Program3.hpp:47:15
+	.loc	66 45 15                @ /root/Bela/projects/MagicBox/Program3.hpp:45:15
 	str	r0, [r5, #176]
-	.loc	66 48 20                @ /root/Bela/projects/MagicBox/Program3.hpp:48:20
+	.loc	66 46 20                @ /root/Bela/projects/MagicBox/Program3.hpp:46:20
 	ldr	r0, [r5, #48]
 .Ltmp879:
 	@DEBUG_VALUE: V:this <- %R0
@@ -5213,65 +5213,65 @@ _ZN8Program36renderEP11BelaContext:     @ @_ZN8Program36renderEP11BelaContext
 	vldr	s2, [r0, #8]
 .Ltmp881:
 	@DEBUG_VALUE: render:delay <- %S2
-	.loc	66 59 19                @ /root/Bela/projects/MagicBox/Program3.hpp:59:19
+	.loc	66 57 19                @ /root/Bela/projects/MagicBox/Program3.hpp:57:19
 	ldr	r0, [r5, #164]
 .Ltmp882:
 	.loc	22 656 50               @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:656:50
 	sub	r1, r2, r1
 .Ltmp883:
-	.loc	66 49 29                @ /root/Bela/projects/MagicBox/Program3.hpp:49:29
+	.loc	66 47 29                @ /root/Bela/projects/MagicBox/Program3.hpp:47:29
 	vmul.f32	d16, d1, d0
-	.loc	66 56 42                @ /root/Bela/projects/MagicBox/Program3.hpp:56:42
+	.loc	66 54 42                @ /root/Bela/projects/MagicBox/Program3.hpp:54:42
 	vldr	s2, [r4, #32]
 .Ltmp884:
-	.loc	66 54 23                @ /root/Bela/projects/MagicBox/Program3.hpp:54:23
+	.loc	66 52 23                @ /root/Bela/projects/MagicBox/Program3.hpp:52:23
 	ldr	r6, [r5, #56]
 .Ltmp885:
 	@DEBUG_VALUE: V:this <- %R6
-	.loc	66 49 22                @ /root/Bela/projects/MagicBox/Program3.hpp:49:22
+	.loc	66 47 22                @ /root/Bela/projects/MagicBox/Program3.hpp:47:22
 	vcvt.s32.f32	d16, d16
-	.loc	66 49 17 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:49:17
+	.loc	66 47 17 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:47:17
 	vcvt.f32.s32	d0, d16
 .Ltmp886:
 	@DEBUG_VALUE: render:delay <- %S0
-	.loc	66 50 17 is_stmt 1      @ /root/Bela/projects/MagicBox/Program3.hpp:50:17
+	.loc	66 48 17 is_stmt 1      @ /root/Bela/projects/MagicBox/Program3.hpp:48:17
 	vcvt.f64.f32	d16, s0
-	.loc	66 50 23 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:50:23
+	.loc	66 48 23 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:48:23
 	vmul.f64	d16, d16, d17
-	.loc	66 50 17                @ /root/Bela/projects/MagicBox/Program3.hpp:50:17
+	.loc	66 48 17                @ /root/Bela/projects/MagicBox/Program3.hpp:48:17
 	vcvt.f32.f64	s0, d16
 .Ltmp887:
 	@DEBUG_VALUE: render:delay <- %S0
-	.loc	66 56 32 is_stmt 1      @ /root/Bela/projects/MagicBox/Program3.hpp:56:32
+	.loc	66 54 32 is_stmt 1      @ /root/Bela/projects/MagicBox/Program3.hpp:54:32
 	vmul.f32	d16, d0, d1
-	.loc	66 56 27 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:56:27
+	.loc	66 54 27 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:54:27
 	vcvt.s32.f32	d0, d16
 .Ltmp888:
 	vmov	r3, s0
 .Ltmp889:
 	@DEBUG_VALUE: render:delayInSamples <- %R3
-	.loc	66 59 28 is_stmt 1      @ /root/Bela/projects/MagicBox/Program3.hpp:59:28
+	.loc	66 57 28 is_stmt 1      @ /root/Bela/projects/MagicBox/Program3.hpp:57:28
 	sub	r0, r0, r3
-	.loc	66 59 45 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:59:45
+	.loc	66 57 45 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:57:45
 	add	r0, r0, r1, asr #2
 .Ltmp890:
 	.loc	22 656 50 is_stmt 1     @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:656:50
 	asr	r1, r1, #2
 .Ltmp891:
-	.loc	66 59 65                @ /root/Bela/projects/MagicBox/Program3.hpp:59:65
+	.loc	66 57 65                @ /root/Bela/projects/MagicBox/Program3.hpp:57:65
 	bl	__aeabi_uidivmod
 .Ltmp892:
 	.loc	9 9 20                  @ /root/Bela/projects/MagicBox/mbIO.hpp:9:20
 	vldr	s16, [r6]
 .Ltmp893:
 	@DEBUG_VALUE: render:feedback <- %S16
-	.loc	66 59 16                @ /root/Bela/projects/MagicBox/Program3.hpp:59:16
+	.loc	66 57 16                @ /root/Bela/projects/MagicBox/Program3.hpp:57:16
 	str	r1, [r5, #160]
 .Ltmp894:
 	@DEBUG_VALUE: n <- 0
-	.loc	66 61 41 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:61:41
+	.loc	66 59 41 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:59:41
 	ldr	r0, [r4, #20]
-	.loc	66 61 4 is_stmt 0 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:61:4
+	.loc	66 59 4 is_stmt 0 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:59:4
 	cmp	r0, #0
 	beq	.LBB18_3
 .Ltmp895:
@@ -5280,71 +5280,71 @@ _ZN8Program36renderEP11BelaContext:     @ @_ZN8Program36renderEP11BelaContext
 	@DEBUG_VALUE: V:this <- %R6
 	@DEBUG_VALUE: render:context <- %R4
 	@DEBUG_VALUE: render:this <- %R5
-	.loc	66 66 15 is_stmt 1      @ /root/Bela/projects/MagicBox/Program3.hpp:66:15
+	.loc	66 64 15 is_stmt 1      @ /root/Bela/projects/MagicBox/Program3.hpp:64:15
 	add	r6, r5, #116
 .Ltmp896:
 	mov	r8, #0
 	mov	r7, #0
 .Ltmp897:
 .LBB18_2:                               @ =>This Inner Loop Header: Depth=1
-	.loc	66 63 26                @ /root/Bela/projects/MagicBox/Program3.hpp:63:26
+	.loc	66 61 26                @ /root/Bela/projects/MagicBox/Program3.hpp:61:26
 	ldr	r0, [r5, #168]
-	.loc	66 63 4 is_stmt 0       @ /root/Bela/projects/MagicBox/Program3.hpp:63:4
+	.loc	66 61 4 is_stmt 0       @ /root/Bela/projects/MagicBox/Program3.hpp:61:4
 	mov	r1, r7
 	mov	r2, r4
-	.loc	66 63 26                @ /root/Bela/projects/MagicBox/Program3.hpp:63:26
+	.loc	66 61 26                @ /root/Bela/projects/MagicBox/Program3.hpp:61:26
 	vmov	s0, r0
-	.loc	66 63 4                 @ /root/Bela/projects/MagicBox/Program3.hpp:63:4
+	.loc	66 61 4                 @ /root/Bela/projects/MagicBox/Program3.hpp:61:4
 	mov	r0, r5
-	.loc	66 63 26                @ /root/Bela/projects/MagicBox/Program3.hpp:63:26
+	.loc	66 61 26                @ /root/Bela/projects/MagicBox/Program3.hpp:61:26
 	vcvt.f32.s32	d0, d0
-	.loc	66 63 4                 @ /root/Bela/projects/MagicBox/Program3.hpp:63:4
+	.loc	66 61 4                 @ /root/Bela/projects/MagicBox/Program3.hpp:61:4
                                         @ kill: %S0<def> %S0<kill> %D0<kill>
 	bl	_ZN9mbProgram11ReadAllPinsEiP11BelaContextf
-	.loc	66 66 24 is_stmt 1 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:66:24
+	.loc	66 64 24 is_stmt 1 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:64:24
 	mov	r0, r6
 	bl	_ZN14MonoFilePlayer7processEv
-	.loc	66 69 26                @ /root/Bela/projects/MagicBox/Program3.hpp:69:26
+	.loc	66 67 26                @ /root/Bela/projects/MagicBox/Program3.hpp:67:26
 	ldr	r1, [r5, #160]
 .Ltmp898:
 	@DEBUG_VALUE: operator[]:__n <- %R1
-	.loc	66 66 24 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:66:24
+	.loc	66 64 24 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:64:24
                                         @ kill: %S0<def> %S0<kill> %D0<def>
 .Ltmp899:
 	.loc	22 781 32               @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:781:32
 	ldr	r2, [r5, #148]
 .Ltmp900:
-	.loc	66 66 34                @ /root/Bela/projects/MagicBox/Program3.hpp:66:34
+	.loc	66 64 34                @ /root/Bela/projects/MagicBox/Program3.hpp:64:34
 	vldr	s4, [r5, #176]
 .Ltmp901:
 	@DEBUG_VALUE: operator[]:__n <- %R0
 	.loc	22 781 41               @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:781:41
 	add	r3, r2, r1, lsl #2
 .Ltmp902:
-	.loc	66 72 14                @ /root/Bela/projects/MagicBox/Program3.hpp:72:14
+	.loc	66 70 14                @ /root/Bela/projects/MagicBox/Program3.hpp:70:14
 	ldr	r0, [r5, #164]
 .Ltmp903:
-	.loc	66 66 33                @ /root/Bela/projects/MagicBox/Program3.hpp:66:33
+	.loc	66 64 33                @ /root/Bela/projects/MagicBox/Program3.hpp:64:33
 	vmul.f32	d0, d2, d0
-	.loc	66 79 11                @ /root/Bela/projects/MagicBox/Program3.hpp:79:11
+	.loc	66 77 11                @ /root/Bela/projects/MagicBox/Program3.hpp:77:11
 	add	r1, r1, #1
 .Ltmp904:
-	.loc	66 69 16                @ /root/Bela/projects/MagicBox/Program3.hpp:69:16
+	.loc	66 67 16                @ /root/Bela/projects/MagicBox/Program3.hpp:67:16
 	vldr	s2, [r3]
 .Ltmp905:
 	@DEBUG_VALUE: out <- %S2
 	.loc	22 781 41               @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:781:41
 	add	r3, r2, r0, lsl #2
 .Ltmp906:
-	.loc	66 76 12                @ /root/Bela/projects/MagicBox/Program3.hpp:76:12
+	.loc	66 74 12                @ /root/Bela/projects/MagicBox/Program3.hpp:74:12
 	add	r0, r0, #1
-	.loc	66 72 32                @ /root/Bela/projects/MagicBox/Program3.hpp:72:32
+	.loc	66 70 32                @ /root/Bela/projects/MagicBox/Program3.hpp:70:32
 	vmul.f32	d16, d1, d8
 .Ltmp907:
 	@DEBUG_VALUE: in <- %S0
-	.loc	66 72 28 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:72:28
+	.loc	66 70 28 is_stmt 0      @ /root/Bela/projects/MagicBox/Program3.hpp:70:28
 	vadd.f32	d2, d16, d0
-	.loc	66 72 24                @ /root/Bela/projects/MagicBox/Program3.hpp:72:24
+	.loc	66 70 24                @ /root/Bela/projects/MagicBox/Program3.hpp:70:24
 	vstr	s4, [r3]
 .Ltmp908:
 	.loc	22 656 40 is_stmt 1     @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:656:40
@@ -5352,17 +5352,17 @@ _ZN8Program36renderEP11BelaContext:     @ @_ZN8Program36renderEP11BelaContext
 	.loc	22 656 50 is_stmt 0     @ /usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:656:50
 	sub	r2, r3, r2
 .Ltmp909:
-	.loc	66 77 8 is_stmt 1       @ /root/Bela/projects/MagicBox/Program3.hpp:77:8
+	.loc	66 75 8 is_stmt 1       @ /root/Bela/projects/MagicBox/Program3.hpp:75:8
 	cmp	r0, r2, asr #2
 	movhs	r0, r8
-	.loc	66 80 7                 @ /root/Bela/projects/MagicBox/Program3.hpp:80:7
+	.loc	66 78 7                 @ /root/Bela/projects/MagicBox/Program3.hpp:78:7
 	cmp	r1, r2, asr #2
 	movhs	r1, r8
 .Ltmp910:
-	.loc	66 81 12                @ /root/Bela/projects/MagicBox/Program3.hpp:81:12
+	.loc	66 79 12                @ /root/Bela/projects/MagicBox/Program3.hpp:79:12
 	str	r1, [r5, #160]
 .Ltmp911:
-	.loc	66 78 13                @ /root/Bela/projects/MagicBox/Program3.hpp:78:13
+	.loc	66 76 13                @ /root/Bela/projects/MagicBox/Program3.hpp:76:13
 	str	r0, [r5, #164]
 	ldr	r1, [r4, #28]
 	ldr	r0, [r4, #4]
@@ -5370,7 +5370,7 @@ _ZN8Program36renderEP11BelaContext:     @ @_ZN8Program36renderEP11BelaContext
 	.loc	16 1276 26              @ ./include/Bela.h:1276:26
 	mul	r1, r1, r7
 .Ltmp913:
-	.loc	66 61 55 discriminator 3 @ /root/Bela/projects/MagicBox/Program3.hpp:61:55
+	.loc	66 59 55 discriminator 3 @ /root/Bela/projects/MagicBox/Program3.hpp:59:55
 	add	r7, r7, #1
 .Ltmp914:
 	@DEBUG_VALUE: n <- %R7
@@ -5382,14 +5382,14 @@ _ZN8Program36renderEP11BelaContext:     @ @_ZN8Program36renderEP11BelaContext
 	.loc	16 1276 65 is_stmt 0    @ ./include/Bela.h:1276:65
 	vstr	s2, [r0, #4]
 .Ltmp917:
-	.loc	66 61 41 is_stmt 1 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:61:41
+	.loc	66 59 41 is_stmt 1 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:59:41
 	ldr	r0, [r4, #20]
-	.loc	66 61 4 is_stmt 0 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:61:4
+	.loc	66 59 4 is_stmt 0 discriminator 1 @ /root/Bela/projects/MagicBox/Program3.hpp:59:4
 	cmp	r7, r0
 	blo	.LBB18_2
 .Ltmp918:
 .LBB18_3:                               @ %._crit_edge
-	.loc	66 88 3 is_stmt 1       @ /root/Bela/projects/MagicBox/Program3.hpp:88:3
+	.loc	66 86 3 is_stmt 1       @ /root/Bela/projects/MagicBox/Program3.hpp:86:3
 	vpop	{d8}
 	pop	{r4, r5, r6, r7, r8, r10, r11, pc}
 .Ltmp919:
@@ -37344,7 +37344,7 @@ _ZTI8Program3:
 	.long	.Linfo_string1636       @ DW_AT_linkage_name
 	.long	.Linfo_string136        @ DW_AT_name
 	.byte	66                      @ DW_AT_decl_file
-	.byte	45                      @ DW_AT_decl_line
+	.byte	43                      @ DW_AT_decl_line
 	.byte	1                       @ DW_AT_virtuality
 	.byte	2                       @ DW_AT_vtable_elem_location
 	.byte	16
@@ -40716,32 +40716,32 @@ _ZTI8Program3:
 	.long	.Ldebug_loc299          @ DW_AT_location
 	.long	.Linfo_string1551       @ DW_AT_name
 	.byte	66                      @ DW_AT_decl_file
-	.byte	45                      @ DW_AT_decl_line
+	.byte	43                      @ DW_AT_decl_line
 	.long	26369                   @ DW_AT_type
 	.ascii	"\205\001"              @ Abbrev [133] 0xc747:0x10 DW_TAG_variable
 	.long	.Ldebug_loc302          @ DW_AT_location
 	.long	.Linfo_string1760       @ DW_AT_name
 	.byte	66                      @ DW_AT_decl_file
-	.byte	48                      @ DW_AT_decl_line
+	.byte	46                      @ DW_AT_decl_line
 	.long	25962                   @ DW_AT_type
 	.ascii	"\205\001"              @ Abbrev [133] 0xc757:0x10 DW_TAG_variable
 	.long	.Ldebug_loc304          @ DW_AT_location
 	.long	.Linfo_string1761       @ DW_AT_name
 	.byte	66                      @ DW_AT_decl_file
-	.byte	56                      @ DW_AT_decl_line
+	.byte	54                      @ DW_AT_decl_line
 	.long	22461                   @ DW_AT_type
 	.ascii	"\205\001"              @ Abbrev [133] 0xc767:0x10 DW_TAG_variable
 	.long	.Ldebug_loc305          @ DW_AT_location
 	.long	.Linfo_string1762       @ DW_AT_name
 	.byte	66                      @ DW_AT_decl_file
-	.byte	54                      @ DW_AT_decl_line
+	.byte	52                      @ DW_AT_decl_line
 	.long	25962                   @ DW_AT_type
 	.byte	114                     @ Abbrev [114] 0xc777:0x19 DW_TAG_inlined_subroutine
 	.long	46833                   @ DW_AT_abstract_origin
 	.long	.Ltmp877                @ DW_AT_low_pc
 	.long	.Ltmp878-.Ltmp877       @ DW_AT_high_pc
 	.byte	66                      @ DW_AT_call_file
-	.byte	47                      @ DW_AT_call_line
+	.byte	45                      @ DW_AT_call_line
 	.byte	116                     @ Abbrev [116] 0xc786:0x9 DW_TAG_formal_parameter
 	.long	.Ldebug_loc300          @ DW_AT_location
 	.long	46843                   @ DW_AT_abstract_origin
@@ -40750,13 +40750,13 @@ _ZTI8Program3:
 	.long	49651                   @ DW_AT_abstract_origin
 	.long	.Ldebug_ranges74        @ DW_AT_ranges
 	.byte	66                      @ DW_AT_call_file
-	.byte	59                      @ DW_AT_call_line
+	.byte	57                      @ DW_AT_call_line
 	.byte	118                     @ Abbrev [118] 0xc79b:0x1a DW_TAG_inlined_subroutine
 	.long	46833                   @ DW_AT_abstract_origin
 	.long	.Ltmp880                @ DW_AT_low_pc
 	.long	.Ltmp881-.Ltmp880       @ DW_AT_high_pc
 	.byte	66                      @ DW_AT_call_file
-	.byte	48                      @ DW_AT_call_line
+	.byte	46                      @ DW_AT_call_line
 	.byte	1                       @ DW_AT_GNU_discriminator
 	.byte	116                     @ Abbrev [116] 0xc7ab:0x9 DW_TAG_formal_parameter
 	.long	.Ldebug_loc301          @ DW_AT_location
@@ -40767,7 +40767,7 @@ _ZTI8Program3:
 	.long	.Ltmp892                @ DW_AT_low_pc
 	.long	.Ltmp893-.Ltmp892       @ DW_AT_high_pc
 	.byte	66                      @ DW_AT_call_file
-	.byte	54                      @ DW_AT_call_line
+	.byte	52                      @ DW_AT_call_line
 	.byte	1                       @ DW_AT_GNU_discriminator
 	.byte	116                     @ Abbrev [116] 0xc7c5:0x9 DW_TAG_formal_parameter
 	.long	.Ldebug_loc303          @ DW_AT_location
@@ -40780,7 +40780,7 @@ _ZTI8Program3:
 	.long	.Ldebug_loc306          @ DW_AT_location
 	.long	.Linfo_string1757       @ DW_AT_name
 	.byte	66                      @ DW_AT_decl_file
-	.byte	61                      @ DW_AT_decl_line
+	.byte	59                      @ DW_AT_decl_line
 	.long	26730                   @ DW_AT_type
 	.ascii	"\226\001"              @ Abbrev [150] 0xc7e9:0x80 DW_TAG_lexical_block
 	.long	.Ldebug_ranges77        @ DW_AT_ranges
@@ -40788,19 +40788,19 @@ _ZTI8Program3:
 	.long	.Ldebug_loc309          @ DW_AT_location
 	.long	.Linfo_string1758       @ DW_AT_name
 	.byte	66                      @ DW_AT_decl_file
-	.byte	69                      @ DW_AT_decl_line
+	.byte	67                      @ DW_AT_decl_line
 	.long	25962                   @ DW_AT_type
 	.ascii	"\205\001"              @ Abbrev [133] 0xc7ff:0x10 DW_TAG_variable
 	.long	.Ldebug_loc310          @ DW_AT_location
 	.long	.Linfo_string1763       @ DW_AT_name
 	.byte	66                      @ DW_AT_decl_file
-	.byte	66                      @ DW_AT_decl_line
+	.byte	64                      @ DW_AT_decl_line
 	.long	25962                   @ DW_AT_type
 	.ascii	"\210\001"              @ Abbrev [136] 0xc80f:0x17 DW_TAG_inlined_subroutine
 	.long	50935                   @ DW_AT_abstract_origin
 	.long	.Ldebug_ranges75        @ DW_AT_ranges
 	.byte	66                      @ DW_AT_call_file
-	.byte	69                      @ DW_AT_call_line
+	.byte	67                      @ DW_AT_call_line
 	.byte	1                       @ DW_AT_GNU_discriminator
 	.byte	116                     @ Abbrev [116] 0xc81c:0x9 DW_TAG_formal_parameter
 	.long	.Ldebug_loc307          @ DW_AT_location
@@ -40811,7 +40811,7 @@ _ZTI8Program3:
 	.long	.Ltmp905                @ DW_AT_low_pc
 	.long	.Ltmp906-.Ltmp905       @ DW_AT_high_pc
 	.byte	66                      @ DW_AT_call_file
-	.byte	72                      @ DW_AT_call_line
+	.byte	70                      @ DW_AT_call_line
 	.byte	116                     @ Abbrev [116] 0xc835:0x9 DW_TAG_formal_parameter
 	.long	.Ldebug_loc308          @ DW_AT_location
 	.long	50954                   @ DW_AT_abstract_origin
@@ -40821,18 +40821,18 @@ _ZTI8Program3:
 	.long	.Ltmp908                @ DW_AT_low_pc
 	.long	.Ltmp909-.Ltmp908       @ DW_AT_high_pc
 	.byte	66                      @ DW_AT_call_file
-	.byte	77                      @ DW_AT_call_line
+	.byte	75                      @ DW_AT_call_line
 	.byte	123                     @ Abbrev [123] 0xc84e:0xb DW_TAG_inlined_subroutine
 	.long	46873                   @ DW_AT_abstract_origin
 	.long	.Ldebug_ranges76        @ DW_AT_ranges
 	.byte	66                      @ DW_AT_call_file
-	.byte	84                      @ DW_AT_call_line
+	.byte	82                      @ DW_AT_call_line
 	.byte	119                     @ Abbrev [119] 0xc859:0xf DW_TAG_inlined_subroutine
 	.long	46873                   @ DW_AT_abstract_origin
 	.long	.Ltmp916                @ DW_AT_low_pc
 	.long	.Ltmp917-.Ltmp916       @ DW_AT_high_pc
 	.byte	66                      @ DW_AT_call_file
-	.byte	85                      @ DW_AT_call_line
+	.byte	83                      @ DW_AT_call_line
 	.byte	0                       @ End Of Children Mark
 	.byte	0                       @ End Of Children Mark
 	.byte	0                       @ End Of Children Mark

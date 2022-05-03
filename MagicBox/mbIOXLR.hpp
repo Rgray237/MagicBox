@@ -1,12 +1,6 @@
 #pragma once
 
 #include "mbIO.hpp"
-<<<<<<< HEAD
-
-class mbIOXLR : public mbIO
-{
-
-=======
 #include <utility>
 
 class mbIOXLR : public mbIO
@@ -20,5 +14,4 @@ float val_;
   
   void SetV(float vPos,float vNeg){val_=vNeg-vPos;}
   void Setup(int posPin,int negPin){negPin_ = negPin; posPin_ = posPin; val_ = 0;}
->>>>>>> 965ef2c (new pc. Added delay effect.)
 };
